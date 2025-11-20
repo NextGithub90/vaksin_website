@@ -1,0 +1,3 @@
+.promo-banner{border-radius:16px;background:#ffffff;box-shadow:0 10px 30px rgba(2,18,32,.08)}
+.promo-img{transition:transform .25s ease}
+.promo-img:hover{transform:scale(1.02)}
