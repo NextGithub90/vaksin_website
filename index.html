@@ -39,9 +39,10 @@
 </head>
 
 <body>
-  <header class="sticky-top bg-white shadow-sm">
+  <header class="site-header">
     <nav class="navbar navbar-expand-lg navbar-light container">
-      <a class="navbar-brand fw-bold" href="#">Cendana Homecare</a>
+      <a class="navbar-brand" href="#"><img src="img/logo.jpeg" alt="Cendana Homecare" class="brand-logo"><span
+          class="brand-name">Cendana Homecare</span></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -69,7 +70,7 @@
           <h1 class="display-5 fw-bold mb-3">Infus & Suntik Vitamin yang Aman & Anti Ribet</h1>
           <p class="lead mb-4">Home service oleh tenaga kesehatan profesional. Pendaftaran mudah, jadwal fleksibel,
             harga all in.</p>
-          <div class="d-flex gap-3">
+          <div class="cta-group d-flex gap-3">
             <a href="https://wa.me/6282129743862?text=Halo%20Cendana%20Homecare,%20saya%20ingin%20infus%20vitamin"
               class="btn btn-primary btn-lg" target="_blank">Reservasi Sekarang</a>
             <a href="#vitamin" class="btn btn-outline-primary btn-lg">Lihat Paket</a>
@@ -84,7 +85,53 @@
         <div class="col-lg-6 order-1 order-lg-2 text-center d-none d-lg-block"></div>
       </div>
     </div>
-    <div class="hero-shape"></div>
+    <div class="hero-wave">
+      <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M0,0 V40 C150,80 350,0 600,30 C850,60 1050,20 1200,40 V120 H0 Z" fill="#ffffff"></path>
+      </svg>
+    </div>
+  </section>
+  <section id="boost" class="py-3 boost-section">
+    <div class="boost-top-wave">
+      <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M0,40 C150,0 350,80 600,40 C850,0 1050,80 1200,40 V120 H0 Z" fill="#ffffff"></path>
+      </svg>
+    </div>
+    <div class="container-fluid">
+      <div class="text-center text-secondary mb-3">Pilih jenis vitamin yang Anda cari:</div>
+      <div class="row g-0">
+        <div class="col-md-4">
+          <a href="#vitamin"
+            class="boost-panel boost-energy d-flex align-items-center p-4 text-white text-decoration-none">
+            <div class="bp-content">
+              <h3 class="mb-2" style="color: white; text-shadow: 1px 0px 20px white;">Energy Boost</h3>
+              <p class="mb-3">Tingkatkan daya tahan dan energi untuk aktivitas harian.</p>
+              <span class="btn btn-outline-light">Cek Daftar Harga</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="#vitamin"
+            class="boost-panel boost-beauty d-flex align-items-center p-4 text-white text-decoration-none">
+            <div class="bp-content">
+              <h3 class="mb-2" style="color: white; text-shadow: 1px 0px 20px white;">Beauty Boost</h3>
+              <p class="mb-3">Nutrisi untuk kulit cerah, sehat, dan tampak awet muda.</p>
+              <span class="btn btn-outline-light">Cek Daftar Harga</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="#vitamin"
+            class="boost-panel boost-recovery d-flex align-items-center p-4 text-white text-decoration-none">
+            <div class="bp-content">
+              <h3 class="mb-2" style="color: white; text-shadow: 1px 0px 20px white;">Recovery Boost</h3>
+              <p class="mb-3">Bantu pemulihan kesehatan dan tingkatkan kualitas istirahat.</p>
+              <span class="btn btn-outline-light">Cek Daftar Harga</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
   </section>
 
 
@@ -144,179 +191,219 @@
     <div class="container">
       <div class="row mb-4 align-items-end">
         <div class="col-lg-8">
-          <h2 class="section-title">Pricelist Vitamin</h2>
+          <div class="text-uppercase text-secondary" style="letter-spacing:.06em">Pricelist Vitamin</div>
+          <h2 class="display-6 fw-bold">Immune Boost</h2>
           <p class="text-secondary">Paket sesuai kebutuhan Anda. Konsultasikan jenis & dosis dengan tenaga kami.</p>
         </div>
         <div class="col-lg-4 text-lg-end"><a class="btn btn-outline-primary"
             href="https://wa.me/6282129743862?text=Saya%20ingin%20konsultasi%20paket%20vitamin" target="_blank">Tanya
             Paket</a></div>
       </div>
-      <div class="row g-4">
-        <div class="col-md-6 col-lg-4">
-          <div class="card pricing-card reveal-on-scroll h-100">
-            <div class="card-body">
-              <div class="d-flex justify-content-between align-items-center mb-2">
+      <div class="d-grid gap-4">
+        <div class="plist-card p-4 reveal-on-scroll">
+          <div class="d-flex justify-content-between align-items-start flex-wrap">
+            <div class="pe-lg-4 flex-grow-1">
+              <div class="d-flex align-items-center gap-2 mb-2">
                 <h5 class="mb-0">Vitamin C Booster</h5><span class="badge bg-primary">Promo</span>
               </div>
-              <p class="small text-secondary">Meningkatkan produksi kolagen, mengurangi peradangan, mempercepat
+              <p class="text-secondary mb-2">Meningkatkan produksi kolagen, mengurangi peradangan, mempercepat
                 penyembuhan.</p>
-              <ul class="list-unstyled mb-3">
-                <li>Vitamin C 1000mg</li>
-              </ul>
-              <div class="pricing"><span class="text-decoration-line-through">Suntik 300k</span> <strong
-                  class="ms-2">199k</strong></div>
-              <div class="pricing"><span class="text-decoration-line-through">Infus 450k</span> <strong
-                  class="ms-2">279k</strong></div>
+              <div class="small mb-2">kandungan: Vitamin C 1000mg</div>
+              <div class="small text-secondary">metode: Suntik / Infus</div>
+              <div class="plist-sep my-3"></div>
+            </div>
+            <div class="price-right text-end">
+              <div class="plist-price">199k</div>
+              <div class="plist-sub">Suntik <span class="text-decoration-line-through ms-1">300k</span></div>
+              <div class="plist-sub">Infus <span class="text-decoration-line-through ms-1">450k</span> <span
+                  class="fw-semibold ms-1">279k</span></div>
               <a href="https://wa.me/6282129743862?text=Saya%20pesan%20Vitamin%20C%20Booster"
-                class="btn btn-primary w-100 mt-3" target="_blank">Pesan</a>
+                class="btn btn-primary mt-3" target="_blank">Pesan Sekarang</a>
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="card pricing-card reveal-on-scroll h-100">
-            <div class="card-body">
-              <h5>Immune Booster</h5>
-              <p class="small text-secondary">Memperkuat daya tahan, membantu melawan infeksi.</p>
-              <ul class="list-unstyled mb-3">
-                <li>Vitamin C 1000mg, B1, B6, B12</li>
-              </ul>
-              <div class="pricing"><span class="text-decoration-line-through">Suntik 550k</span> <strong
-                  class="ms-2">299k</strong></div>
-              <div class="pricing"><span class="text-decoration-line-through">Infus 650k</span> <strong
-                  class="ms-2">350k</strong></div>
-              <a href="https://wa.me/6282129743862?text=Saya%20pesan%20Immune%20Booster"
-                class="btn btn-primary w-100 mt-3" target="_blank">Pesan</a>
+
+        <div class="plist-card p-4 reveal-on-scroll">
+          <div class="d-flex justify-content-between align-items-start flex-wrap">
+            <div class="pe-lg-4 flex-grow-1">
+              <h5 class="mb-1">Immune Booster</h5>
+              <p class="text-secondary mb-2">Memperkuat daya tahan, membantu melawan infeksi.</p>
+              <div class="small mb-2">kandungan: Vitamin C 1000mg, B1, B6, B12</div>
+              <div class="small text-secondary">metode: Suntik / Infus</div>
+              <div class="plist-sep my-3"></div>
+            </div>
+            <div class="price-right text-end">
+              <div class="plist-price">299k</div>
+              <div class="plist-sub">Suntik <span class="text-decoration-line-through ms-1">550k</span></div>
+              <div class="plist-sub">Infus <span class="text-decoration-line-through ms-1">650k</span> <span
+                  class="fw-semibold ms-1">350k</span></div>
+              <a href="https://wa.me/6282129743862?text=Saya%20pesan%20Immune%20Booster" class="btn btn-primary mt-3"
+                target="_blank">Pesan Sekarang</a>
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="card pricing-card reveal-on-scroll h-100">
-            <div class="card-body">
-              <h5>Premium Booster</h5>
-              <p class="small text-secondary">Asupan multivitamin lengkap untuk pemulihan dan energi.</p>
-              <ul class="list-unstyled mb-3">
-                <li>Complete Multivitamin</li>
-              </ul>
-              <div class="pricing"><span class="text-decoration-line-through">Suntik 750k</span> <strong
-                  class="ms-2">549k</strong></div>
-              <div class="pricing"><span class="text-decoration-line-through">Infus 850k</span> <strong
-                  class="ms-2">649k</strong></div>
-              <a href="https://wa.me/6282129743862?text=Saya%20pesan%20Premium%20Booster"
-                class="btn btn-primary w-100 mt-3" target="_blank">Pesan</a>
+
+        <div class="plist-card p-4 reveal-on-scroll">
+          <div class="d-flex justify-content-between align-items-start flex-wrap">
+            <div class="pe-lg-4 flex-grow-1">
+              <h5 class="mb-1">Premium Booster</h5>
+              <p class="text-secondary mb-2">Asupan multivitamin lengkap untuk pemulihan dan energi.</p>
+              <div class="small mb-2">kandungan: Complete Multivitamin</div>
+              <div class="small text-secondary">metode: Suntik / Infus</div>
+              <div class="plist-sep my-3"></div>
+            </div>
+            <div class="price-right text-end">
+              <div class="plist-price">549k</div>
+              <div class="plist-sub">Suntik <span class="text-decoration-line-through ms-1">750k</span></div>
+              <div class="plist-sub">Infus <span class="text-decoration-line-through ms-1">850k</span> <span
+                  class="fw-semibold ms-1">649k</span></div>
+              <a href="https://wa.me/6282129743862?text=Saya%20pesan%20Premium%20Booster" class="btn btn-primary mt-3"
+                target="_blank">Pesan Sekarang</a>
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="card pricing-card reveal-on-scroll h-100">
-            <div class="card-body">
-              <h5>Infus Zat Besi</h5>
-              <p class="small text-secondary">Meningkatkan hemoglobin untuk anemia.</p>
-              <ul class="list-unstyled mb-3">
-                <li>Iron (zat besi)</li>
-              </ul>
-              <div class="pricing"><span class="text-decoration-line-through">Infus 899k</span> <strong
-                  class="ms-2">599k</strong></div>
-              <a href="https://wa.me/6282129743862?text=Saya%20pesan%20Infus%20Zat%20Besi"
-                class="btn btn-primary w-100 mt-3" target="_blank">Pesan</a>
+
+        <div class="plist-card p-4 reveal-on-scroll">
+          <div class="d-flex justify-content-between align-items-start flex-wrap">
+            <div class="pe-lg-4 flex-grow-1">
+              <h5 class="mb-1">Infus Zat Besi</h5>
+              <p class="text-secondary mb-2">Meningkatkan hemoglobin untuk anemia.</p>
+              <div class="small mb-2">kandungan: Iron (zat besi)</div>
+              <div class="small text-secondary">metode: Infus</div>
+              <div class="plist-sep my-3"></div>
+            </div>
+            <div class="price-right text-end">
+              <div class="plist-price">599k</div>
+              <div class="plist-sub">Infus <span class="text-decoration-line-through ms-1">899k</span></div>
+              <a href="https://wa.me/6282129743862?text=Saya%20pesan%20Infus%20Zat%20Besi" class="btn btn-primary mt-3"
+                target="_blank">Pesan Sekarang</a>
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="card pricing-card reveal-on-scroll h-100">
-            <div class="card-body">
-              <h5>Infinite Booster</h5>
-              <p class="small text-secondary">Perkuat imun dan percepat pemulihan.</p>
-              <ul class="list-unstyled mb-3">
-                <li>Multivitamin, Vitamin B Complex, Vitamin C 1000mg</li>
-              </ul>
-              <div class="pricing"><span class="text-decoration-line-through">Infus 1000k</span> <strong
-                  class="ms-2">899k</strong></div>
-              <a href="https://wa.me/6282129743862?text=Saya%20pesan%20Infinite%20Booster"
-                class="btn btn-primary w-100 mt-3" target="_blank">Pesan</a>
+
+        <div class="plist-card p-4 reveal-on-scroll">
+          <div class="d-flex justify-content-between align-items-start flex-wrap">
+            <div class="pe-lg-4 flex-grow-1">
+              <h5 class="mb-1">Infinite Booster</h5>
+              <p class="text-secondary mb-2">Perkuat imun dan percepat pemulihan.</p>
+              <div class="small mb-2">kandungan: Multivitamin, Vitamin B Complex, Vitamin C 1000mg</div>
+              <div class="small text-secondary">metode: Infus</div>
+              <div class="plist-sep my-3"></div>
+            </div>
+            <div class="price-right text-end">
+              <div class="plist-price">899k</div>
+              <div class="plist-sub">Infus <span class="text-decoration-line-through ms-1">1000k</span></div>
+              <a href="https://wa.me/6282129743862?text=Saya%20pesan%20Infinite%20Booster" class="btn btn-primary mt-3"
+                target="_blank">Pesan Sekarang</a>
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="card pricing-card reveal-on-scroll h-100">
-            <div class="card-body">
-              <h5>Traveler Booster</h5>
-              <p class="small text-secondary">Fit saat dan setelah perjalanan jauh.</p>
-              <ul class="list-unstyled mb-3">
-                <li>Vitamin C, Multivitamin</li>
-              </ul>
-              <div class="pricing"><span class="text-decoration-line-through">Suntik 750k</span> <strong
-                  class="ms-2">549k</strong></div>
-              <div class="pricing"><span class="text-decoration-line-through">Infus 850k</span> <strong
-                  class="ms-2">649k</strong></div>
-              <a href="https://wa.me/6282129743862?text=Saya%20pesan%20Traveler%20Booster"
-                class="btn btn-primary w-100 mt-3" target="_blank">Pesan</a>
+
+        <div class="plist-card p-4 reveal-on-scroll">
+          <div class="d-flex justify-content-between align-items-start flex-wrap">
+            <div class="pe-lg-4 flex-grow-1">
+              <h5 class="mb-1">Traveler Booster</h5>
+              <p class="text-secondary mb-2">Fit saat dan setelah perjalanan jauh.</p>
+              <div class="small mb-2">kandungan: Vitamin C, Multivitamin</div>
+              <div class="small text-secondary">metode: Suntik / Infus</div>
+              <div class="plist-sep my-3"></div>
+            </div>
+            <div class="price-right text-end">
+              <div class="plist-price">549k</div>
+              <div class="plist-sub">Suntik <span class="text-decoration-line-through ms-1">750k</span></div>
+              <div class="plist-sub">Infus <span class="text-decoration-line-through ms-1">850k</span> <span
+                  class="fw-semibold ms-1">649k</span></div>
+              <a href="https://wa.me/6282129743862?text=Saya%20pesan%20Traveler%20Booster" class="btn btn-primary mt-3"
+                target="_blank">Pesan Sekarang</a>
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="card pricing-card reveal-on-scroll h-100">
-            <div class="card-body">
-              <div class="d-flex justify-content-between align-items-center mb-2">
+
+        <div class="plist-card p-4 reveal-on-scroll">
+          <div class="d-flex justify-content-between align-items-start flex-wrap">
+            <div class="pe-lg-4 flex-grow-1">
+              <div class="d-flex align-items-center gap-2 mb-2">
                 <h5 class="mb-0">Travel Package</h5><span class="badge bg-success">Bundle</span>
               </div>
-              <p class="small text-secondary">Infus Premium Booster + Vaksin Influenza</p>
-              <ul class="list-unstyled mb-3">
-                <li>Multivitamin lengkap + proteksi influenza</li>
-              </ul>
-              <div class="pricing"><span class="text-decoration-line-through">1299k</span> <strong
-                  class="ms-2">999k</strong></div>
+              <p class="text-secondary mb-2">Infus Premium Booster + Vaksin Influenza</p>
+              <div class="small mb-2">kandungan: Multivitamin lengkap + proteksi influenza</div>
+              <div class="plist-sep my-3"></div>
+            </div>
+            <div class="price-right text-end">
+              <div class="plist-price">999k</div>
+              <div class="plist-sub"><span class="text-decoration-line-through">1299k</span></div>
               <a href="https://wa.me/6282129743862?text=Saya%20pesan%20Promo%20Travel%20Package%20(Premium%20Booster%20%2B%20Vaksin%20Influenza)"
-                class="btn btn-primary w-100 mt-3" target="_blank">Pesan Promo</a>
+                class="btn btn-primary mt-3" target="_blank">Pesan Promo</a>
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="card pricing-card reveal-on-scroll h-100">
-            <div class="card-body">
-              <h5>Gerd Cure</h5>
-              <p class="small text-secondary">Membantu atasi gejala akibat asam lambung.</p>
-              <div class="pricing"><span class="text-decoration-line-through">Suntik 650k</span> <strong
-                  class="ms-2">399k</strong></div>
-              <div class="pricing"><span class="text-decoration-line-through">Infus 750k</span> <strong
-                  class="ms-2">499k</strong></div>
-              <a href="https://wa.me/6282129743862?text=Saya%20pesan%20Gerd%20Cure" class="btn btn-primary w-100 mt-3"
-                target="_blank">Pesan</a>
+
+        <div class="plist-card p-4 reveal-on-scroll">
+          <div class="d-flex justify-content-between align-items-start flex-wrap">
+            <div class="pe-lg-4 flex-grow-1">
+              <h5 class="mb-1">Gerd Cure</h5>
+              <p class="text-secondary mb-2">Membantu atasi gejala akibat asam lambung.</p>
+              <div class="small text-secondary">metode: Suntik / Infus</div>
+              <div class="plist-sep my-3"></div>
+            </div>
+            <div class="price-right text-end">
+              <div class="plist-price">399k</div>
+              <div class="plist-sub">Suntik <span class="text-decoration-line-through ms-1">650k</span></div>
+              <div class="plist-sub">Infus <span class="text-decoration-line-through ms-1">750k</span> <span
+                  class="fw-semibold ms-1">499k</span></div>
+              <a href="https://wa.me/6282129743862?text=Saya%20pesan%20Gerd%20Cure" class="btn btn-primary mt-3"
+                target="_blank">Pesan Sekarang</a>
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="card pricing-card reveal-on-scroll h-100">
-            <div class="card-body">
-              <h5>Fever Cure</h5>
-              <p class="small text-secondary">Meredakan demam dan nyeri tubuh.</p>
-              <div class="pricing"><span class="text-decoration-line-through">Infus 650k</span> <strong
-                  class="ms-2">499k</strong></div>
-              <a href="https://wa.me/6282129743862?text=Saya%20pesan%20Fever%20Cure" class="btn btn-primary w-100 mt-3"
-                target="_blank">Pesan</a>
+
+        <div class="plist-card p-4 reveal-on-scroll">
+          <div class="d-flex justify-content-between align-items-start flex-wrap">
+            <div class="pe-lg-4 flex-grow-1">
+              <h5 class="mb-1">Fever Cure</h5>
+              <p class="text-secondary mb-2">Meredakan demam dan nyeri tubuh.</p>
+              <div class="small text-secondary">metode: Infus</div>
+              <div class="plist-sep my-3"></div>
+            </div>
+            <div class="price-right text-end">
+              <div class="plist-price">499k</div>
+              <div class="plist-sub">Infus <span class="text-decoration-line-through ms-1">650k</span></div>
+              <a href="https://wa.me/6282129743862?text=Saya%20pesan%20Fever%20Cure" class="btn btn-primary mt-3"
+                target="_blank">Pesan Sekarang</a>
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="card pricing-card reveal-on-scroll h-100">
-            <div class="card-body">
-              <h5>Cramp Free Solution</h5>
-              <p class="small text-secondary">Meringankan nyeri perut saat haid.</p>
-              <div class="pricing"><span class="text-decoration-line-through">Infus 650k</span> <strong
-                  class="ms-2">499k</strong></div>
+
+        <div class="plist-card p-4 reveal-on-scroll">
+          <div class="d-flex justify-content-between align-items-start flex-wrap">
+            <div class="pe-lg-4 flex-grow-1">
+              <h5 class="mb-1">Cramp Free Solution</h5>
+              <p class="text-secondary mb-2">Meringankan nyeri perut saat haid.</p>
+              <div class="small text-secondary">metode: Infus</div>
+              <div class="plist-sep my-3"></div>
+            </div>
+            <div class="price-right text-end">
+              <div class="plist-price">499k</div>
+              <div class="plist-sub">Infus <span class="text-decoration-line-through ms-1">650k</span></div>
               <a href="https://wa.me/6282129743862?text=Saya%20pesan%20Cramp%20Free%20Solution"
-                class="btn btn-primary w-100 mt-3" target="_blank">Pesan</a>
+                class="btn btn-primary mt-3" target="_blank">Pesan Sekarang</a>
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="card pricing-card reveal-on-scroll h-100">
-            <div class="card-body">
-              <h5>Hang Over Solution</h5>
-              <p class="small text-secondary">Meredakan sakit kepala dan mual pasca alkohol.</p>
-              <div class="pricing"><span class="text-decoration-line-through">Infus 650k</span> <strong
-                  class="ms-2">599k</strong></div>
+
+        <div class="plist-card p-4 reveal-on-scroll">
+          <div class="d-flex justify-content-between align-items-start flex-wrap">
+            <div class="pe-lg-4 flex-grow-1">
+              <h5 class="mb-1">Hang Over Solution</h5>
+              <p class="text-secondary mb-2">Meredakan sakit kepala dan mual pasca alkohol.</p>
+              <div class="small text-secondary">metode: Infus</div>
+              <div class="plist-sep my-3"></div>
+            </div>
+            <div class="price-right text-end">
+              <div class="plist-price">599k</div>
+              <div class="plist-sub">Infus <span class="text-decoration-line-through ms-1">650k</span></div>
               <a href="https://wa.me/6282129743862?text=Saya%20pesan%20Hang%20Over%20Solution"
-                class="btn btn-primary w-100 mt-3" target="_blank">Pesan</a>
+                class="btn btn-primary mt-3" target="_blank">Pesan Sekarang</a>
             </div>
           </div>
         </div>
@@ -642,7 +729,7 @@
       <div class="row g-4">
         <div class="col-md-6">
           <div class="card h-100 reveal-on-scroll">
-            <div class="card-body">
+            <div class="card-body" style="text-align:center ;">
               <h5 class="mb-3">Pemasangan Selang NGT</h5>
               <p class="text-secondary">Termasuk selang dan pelepasan NGT sebelumnya.</p>
               <div class="pricing"><strong>350.000</strong></div>
@@ -653,11 +740,12 @@
         </div>
         <div class="col-md-6">
           <div class="card h-100 reveal-on-scroll">
-            <div class="card-body">
+            <div class="card-body" style="text-align:center ;">
               <h5 class="mb-3">Kateter</h5>
-              <ul class="list-unstyled text-secondary mb-3">
-                <li>Pelepasan: 150.000</li>
-                <li>Pelepasan & Pemasangan: 400.000 (termasuk urin bag dan selang)</li>
+              <ul class="pricing-list list-unstyled mb-3">
+                <li><span class="label">Pelepasan</span> <span class="price-amount">150.000</span></li>
+                <li><span class="label">Pelepasan &amp; Pemasangan</span> <span class="price-amount">400.000</span><span
+                    class="note">(termasuk urin bag dan selang)</span></li>
               </ul>
               <a href="https://wa.me/6282129743862?text=Saya%20butuh%20kateter" class="btn btn-primary"
                 target="_blank">Pesan</a>
@@ -685,10 +773,10 @@
 
   <section id="wilayah" class="py-5">
     <div class="container">
-      <div class="row g-5 align-items-center">
+      <div class="row g-3 align-items-center">
         <div class="col-lg-6">
           <div class="mb-2 text-uppercase text-secondary" style="letter-spacing:.06em">Melayani di Wilayah</div>
-          <h2 class="display-6 fw-bold mb-3">Tanggerang, Jakarta Utara , Jakarta Timur</h2>
+          <h2 class="display-6 fw-bold mb-3">Tanggerang, Jakarta Utara , Jakarta Barat</h2>
           <p class="text-secondary mb-4">Kami melayani area Jabodetabek dengan harga layanan sama di semua wilayah,
             tanpa biaya transport atau administrasi.</p>
           <a href="https://wa.me/6282129743862?text=Halo%20Cendana%20Homecare,%20saya%20ingin%20reservasi"
@@ -714,32 +802,40 @@
       <div class="row g-4 d-none d-md-flex reveal-on-scroll">
         <div class="col-md-4">
           <div class="testimonial-card p-4 h-100">
-            <div class="d-flex align-items-center gap-3 mb-3">
-              <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=160&auto=format&fit=crop"
-                alt="Pelanggan 1" class="testimonial-avatar rounded-circle" loading="lazy">
-              <div class="fw-semibold">Pelanggan Cendana</div>
+            <div class="rating-stars mb-3">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
             </div>
-            <p class="mb-0">Pelayanan cepat dan ramah. Infus vitamin membantu pemulihan saya.</p>
+            <p class="testimonial-text text-secondary mb-4">"Proses pemesanan layanan sangat cepat dan jelas. Tim datang
+              tepat waktu dan menjelaskan setiap langkah tindakan dengan bahasa yang mudah dipahami. Saya merasa aman
+              dan pulih lebih cepat."</p>
+            <div class="fw-semibold">Ahmad</div>
+            <div class="small text-secondary">Jakarta Selatan</div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="testimonial-card p-4 h-100">
-            <div class="d-flex align-items-center gap-3 mb-3">
-              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=160&auto=format&fit=crop"
-                alt="Pelanggan 2" class="testimonial-avatar rounded-circle" loading="lazy">
-              <div class="fw-semibold">Pelanggan Cendana</div>
+            <div class="rating-stars mb-3">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
             </div>
-            <p class="mb-0">Profesional, on-time, dan sangat membantu. Recommended.</p>
+            <p class="testimonial-text text-secondary mb-4">"Pelayanan ramah, profesional, dan transparan tanpa biaya
+              tersembunyi. Infus vitamin dilakukan dengan steril, hasilnya langsung terasa lebih bertenaga. Sangat
+              direkomendasikan."</p>
+            <div class="fw-semibold">Siti</div>
+            <div class="small text-secondary">Depok</div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="testimonial-card p-4 h-100">
-            <div class="d-flex align-items-center gap-3 mb-3">
-              <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=160&auto=format&fit=crop"
-                alt="Pelanggan 3" class="testimonial-avatar rounded-circle" loading="lazy">
-              <div class="fw-semibold">Pelanggan Cendana</div>
+            <div class="rating-stars mb-3">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
             </div>
-            <p class="mb-0">Harga jelas dan pelayanan sangat memuaskan.</p>
+            <p class="testimonial-text text-secondary mb-4">"Admin responsif, jadwal fleksibel, dan perawatnya teliti.
+              Harga sesuai informasi dan bukti tindakan diberikan. Saya akan memesan lagi bila perlu."</p>
+            <div class="fw-semibold">Raj</div>
+            <div class="small text-secondary">Tangerang</div>
           </div>
         </div>
       </div>
@@ -749,32 +845,40 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="testimonial-card p-4">
-              <div class="d-flex align-items-center gap-3 mb-3">
-                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=160&auto=format&fit=crop"
-                  alt="Pelanggan 1" class="testimonial-avatar rounded-circle" loading="lazy">
-                <div class="fw-semibold">Pelanggan Cendana</div>
+              <div class="rating-stars mb-3">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
               </div>
-              <p class="mb-0">Pelayanan cepat dan ramah. Infus vitamin membantu pemulihan saya.</p>
+              <p class="testimonial-text text-secondary mb-4">"Proses pemesanan layanan sangat cepat dan jelas. Tim
+                datang tepat waktu dan menjelaskan setiap langkah tindakan dengan bahasa yang mudah dipahami. Saya
+                merasa aman dan pulih lebih cepat."</p>
+              <div class="fw-semibold">Ahmad</div>
+              <div class="small text-secondary">Jakarta Selatan</div>
             </div>
           </div>
           <div class="carousel-item">
             <div class="testimonial-card p-4">
-              <div class="d-flex align-items-center gap-3 mb-3">
-                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=160&auto=format&fit=crop"
-                  alt="Pelanggan 2" class="testimonial-avatar rounded-circle" loading="lazy">
-                <div class="fw-semibold">Pelanggan Cendana</div>
+              <div class="rating-stars mb-3">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
               </div>
-              <p class="mb-0">Profesional, on-time, dan sangat membantu. Recommended.</p>
+              <p class="testimonial-text text-secondary mb-4">"Pelayanan ramah, profesional, dan transparan tanpa biaya
+                tersembunyi. Infus vitamin dilakukan dengan steril, hasilnya langsung terasa lebih bertenaga. Sangat
+                direkomendasikan."</p>
+              <div class="fw-semibold">Siti</div>
+              <div class="small text-secondary">Depok</div>
             </div>
           </div>
           <div class="carousel-item">
             <div class="testimonial-card p-4">
-              <div class="d-flex align-items-center gap-3 mb-3">
-                <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=160&auto=format&fit=crop"
-                  alt="Pelanggan 3" class="testimonial-avatar rounded-circle" loading="lazy">
-                <div class="fw-semibold">Pelanggan Cendana</div>
+              <div class="rating-stars mb-3">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
               </div>
-              <p class="mb-0">Harga jelas dan pelayanan sangat memuaskan.</p>
+              <p class="testimonial-text text-secondary mb-4">"Admin responsif, jadwal fleksibel, dan perawatnya teliti.
+                Harga sesuai informasi dan bukti tindakan diberikan. Saya akan memesan lagi bila perlu."</p>
+              <div class="fw-semibold">Raj</div>
+              <div class="small text-secondary">Tangerang</div>
             </div>
           </div>
         </div>
@@ -807,22 +911,47 @@
     </div>
   </section>
 
-  <footer class="py-5 bg-dark text-white">
-    <div class="container">
-      <div class="row g-4">
-        <div class="col-md-6">
-          <div class="mb-3 fw-bold">Cendana Homecare</div>
-          <div class="mb-2">Instagram: <a class="link-light" href="https://www.instagram.com/klinikhadyancendana/"
-              target="_blank">@klinikhadyancendana</a></div>
-          <div class="mb-2">WhatsApp: <a class="link-light" href="https://wa.me/6282129743862"
-              target="_blank">0821-2974-3862</a></div>
-          <div class="small text-secondary">Infus vitamin, vaksinasi, pemasangan NGT, kateter, dan perawatan luka.</div>
+  <footer class="site-footer text-white">
+    <div class="container py-5">
+      <div class="row g-4 align-items-start">
+        <div class="col-md-4">
+          <div class="d-flex align-items-center gap-3 mb-3">
+            <img src="img/logo.jpeg" alt="Cendana Homecare" class="brand-logo">
+            <div class="fw-bold">Cendana Homecare</div>
+          </div>
+          <div class="footer-text">Infus vitamin, vaksinasi, pemasangan NGT, kateter, dan perawatan luka.</div>
+          <div class="footer-social mt-3 d-flex gap-3">
+            <a class="footer-icon" href="https://www.instagram.com/klinikhadyancendana/" target="_blank"
+              aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a class="footer-icon" href="https://wa.me/6282129743862" target="_blank" aria-label="WhatsApp"><i
+                class="bi bi-whatsapp"></i></a>
+          </div>
         </div>
-        <div class="col-md-6 text-md-end">
-          <a href="#" class="btn btn-outline-light">Kembali ke atas</a>
+        <div class="col-md-4">
+          <div class="footer-title">Tautan</div>
+          <div class="d-grid gap-2 mt-2">
+            <a class="footer-link" href="#layanan">Layanan</a>
+            <a class="footer-link" href="#vitamin">Pricelist Vitamin</a>
+            <a class="footer-link" href="#medis">Layanan Medis</a>
+            <a class="footer-link" href="#wilayah">Wilayah</a>
+            <a class="footer-link" href="#galeri">Galeri</a>
+            <a class="footer-link" href="#testimoni">Testimoni</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="footer-title">Kontak</div>
+          <div class="d-grid gap-2 mt-2">
+            <a class="footer-link" href="https://www.instagram.com/klinikhadyancendana/" target="_blank"><i
+                class="bi bi-instagram me-2"></i>@klinikhadyancendana</a>
+            <a class="footer-link" href="https://wa.me/6282129743862" target="_blank"><i
+                class="bi bi-whatsapp me-2"></i>0821-2974-3862</a>
+          </div>
+          <a href="https://wa.me/6282129743862?text=Halo%20Cendana%20Homecare" class="btn btn-primary mt-3"
+            target="_blank">Hubungi via WhatsApp</a>
         </div>
       </div>
-      <div class="pt-4 small text-secondary">© 2025 Cendana Homecare</div>
+      <div class="footer-sep mt-4"></div>
+      <div class="pt-3 small text-secondary">© 2025 Cendana Homecare</div>
     </div>
   </footer>
 
