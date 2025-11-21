@@ -139,26 +139,52 @@ body {
   color: var(--primary);
   font-size: 1.5rem;
 }
+.card {
+  transition: background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  background: linear-gradient(0deg, rgba(20, 184, 166, 0.06), rgba(56, 189, 248, 0.06));
+  box-shadow: 0 12px 34px rgba(2, 18, 32, 0.12);
+}
+.card:hover h5,
+.card:hover p {
+  color: #0f172a;
+}
 .feature-card {
   border: none;
   border-radius: var(--radius);
   box-shadow: 0 6px 22px rgba(2, 18, 32, 0.06);
+  transition: background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+.feature-card:hover {
+  background: linear-gradient(0deg, rgba(20, 184, 166, 0.06), rgba(56, 189, 248, 0.06));
+  box-shadow: 0 12px 34px rgba(2, 18, 32, 0.12);
+}
+.feature-card:hover h5,
+.feature-card:hover p {
+  color: #0f172a;
 }
 .pricing-card {
   border: none;
   border-radius: var(--radius);
   box-shadow: 0 6px 22px rgba(2, 18, 32, 0.06);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.3s ease, color 0.3s ease;
 }
 .pricing-card:hover {
   transform: translateY(-6px);
   box-shadow: 0 12px 34px rgba(2, 18, 32, 0.12);
+  background: linear-gradient(0deg, rgba(20, 184, 166, 0.06), rgba(56, 189, 248, 0.06));
 }
 .plist-card {
   border: none;
   border-radius: 16px;
   box-shadow: 0 6px 22px rgba(2, 18, 32, 0.06);
   background: #fff;
+  transition: background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+.plist-card:hover {
+  background: linear-gradient(0deg, rgba(20, 184, 166, 0.06), rgba(56, 189, 248, 0.06));
+  box-shadow: 0 12px 34px rgba(2, 18, 32, 0.12);
 }
 .plist-price {
   font-weight: 700;
@@ -484,6 +510,16 @@ body {
   background: #fff;
   border-radius: 16px;
   box-shadow: 0 8px 28px rgba(2, 18, 32, 0.12);
+  transition: background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+.testimonial-card:hover {
+  background: linear-gradient(0deg, rgba(20, 184, 166, 0.06), rgba(56, 189, 248, 0.06));
+  box-shadow: 0 12px 34px rgba(2, 18, 32, 0.18);
+}
+.testimonial-card:hover .testimonial-text,
+.testimonial-card:hover .fw-semibold,
+.testimonial-card:hover .small {
+  color: #0f172a;
 }
 .rating-stars i {
   color: #f7c948;
