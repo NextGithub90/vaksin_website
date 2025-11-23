@@ -351,7 +351,7 @@ body {
   clip-path: polygon(1 10%, 100% 0, 100% 100%, 0 100%);
 }
 .boost-vitamin {
-  background-image: url("../../img/gallery1.jpeg");
+  background-image: url("../../img/invus_vitamin.jpeg");
   background-size: cover;
   background-position: center;
 }
@@ -604,6 +604,9 @@ body {
     width: 100%;
   }
   #promo-flu .btn {
+    width: 100%;
+  }
+  #promo-vaksin-flu .btn {
     width: 100%;
   }
   .price-right {
