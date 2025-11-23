@@ -1,3 +1,12 @@
 .promo-banner{border-radius:16px;background:#ffffff;box-shadow:0 10px 30px rgba(2,18,32,.08)}
+.promo-lead{background:linear-gradient(90deg, rgba(20,184,166,.1), rgba(56,189,248,.1));border-radius:12px;padding:1rem 1.25rem;margin-bottom:1rem}
+.promo-eyebrow{text-transform:uppercase;color:#14b8a6;letter-spacing:.08em;font-weight:600;font-size:.85rem;margin-bottom:.35rem}
+.promo-title{font-weight:700;margin:0;color:#0f172a;font-size:1.4rem}
+.promo-sub{color:#475569;margin:.5rem 0 1rem;line-height:1.7}
 .promo-img{transition:transform .25s ease}
 .promo-img:hover{transform:scale(1.02)}
+@media (max-width:575.98px){
+  .promo-title{font-size:1.2rem}
+  .promo-sub{font-size:.95rem}
+  #promo-flu .btn{width:100%}
+}

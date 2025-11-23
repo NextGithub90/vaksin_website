@@ -77,6 +77,16 @@ h5 {
 .intro-lead {
   max-width: 62ch;
   margin: 0 auto;
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+.section-eyebrow {
+  text-transform: uppercase;
+  color: var(--primary);
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  font-size: 0.85rem;
+  margin-bottom: 0.75rem;
 }
 .service-chip {
   display: inline-block;
@@ -313,7 +323,7 @@ body {
   opacity: 0.78;
 }
 .boost-energy {
-  background-image: url("../../img/boost-energy.png");
+  background-image: url("../../img/boost-nergy.png");
   background-size: cover;
   background-position: center;
 }
@@ -340,6 +350,51 @@ body {
   background: linear-gradient(135deg, rgba(244, 63, 94, 0.8), rgba(20, 184, 166, 0.35));
   clip-path: polygon(1 10%, 100% 0, 100% 100%, 0 100%);
 }
+.boost-vitamin {
+  background-image: url("../../img/gallery1.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+.boost-vitamin::before {
+  background: linear-gradient(135deg, rgba(20, 184, 166, 0.85), rgba(56, 189, 248, 0.55));
+  clip-path: polygon(1 12%, 100% 0, 100% 100%, 0 100%);
+}
+.boost-vaksin {
+  background-image: url("../../img/vaksinasi.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+.boost-vaksin::before {
+  background: linear-gradient(135deg, rgba(56, 189, 248, 0.8), rgba(20, 184, 166, 0.45));
+  clip-path: polygon(1, 100% 12%, 100% 100%, 0 100%);
+}
+.boost-ngt {
+  background-image: url("../../img/ngt.png");
+  background-size: cover;
+  background-position: center;
+}
+.boost-ngt::before {
+  background: linear-gradient(135deg, rgba(20, 184, 166, 0.8), rgba(56, 189, 248, 0.35));
+  clip-path: polygon(1 10%, 100% 0, 100% 100%, 0 100%);
+}
+.boost-kateter {
+  background-image: url("../../img/keteter.png");
+  background-size: cover;
+  background-position: center;
+}
+.boost-kateter::before {
+  background: linear-gradient(135deg, rgba(20, 184, 166, 0.75), rgba(2, 18, 32, 0.25));
+  clip-path: polygon(1 10%, 100% 0, 100% 100%, 0 100%);
+}
+.boost-luka {
+  background-image: url("../../img/rawat-luka.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+.boost-luka::before {
+  background: linear-gradient(135deg, rgba(244, 63, 94, 0.7), rgba(20, 184, 166, 0.35));
+  clip-path: polygon(1 10%, 100% 0, 100% 100%, 0 100%);
+}
 @media (max-width: 991.98px) {
   .boost-panel {
     min-height: 360px;
@@ -350,8 +405,15 @@ body {
   }
   .boost-energy,
   .boost-beauty,
-  .boost-recovery {
-    background-size: 102%;
+  .boost-recovery,
+  .boost-vitamin,
+  .boost-vaksin,
+  .boost-ngt,
+  .boost-kateter,
+  .boost-luka {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   .boost-panel::before {
     opacity: 0.7;
@@ -395,6 +457,45 @@ body {
 }
 .bg-dark {
   background: #0b1628 !important;
+}
+@media (max-width: 575.98px) {
+  .price-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  .price-right .plist-sub:first-of-type {
+    order: 1;
+  }
+  .price-right .plist-price {
+    order: 2;
+    font-size: 2rem;
+    font-weight: 800;
+  }
+  .price-right .plist-sub:last-of-type {
+    order: 3;
+  }
+  .plist-sub .fw-semibold {
+    display: block;
+    margin-top: 0.15rem;
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #0f172a;
+  }
+  .price-right a.btn {
+    order: 4;
+    width: 100%;
+    margin-top: 0.75rem;
+  }
+  .plist-sub {
+    font-size: 0.95rem;
+    color: #475569;
+  }
+  .plist-sub .text-decoration-line-through {
+    opacity: 0.8;
+  }
 }
 .link-light:hover {
   text-decoration: underline;
@@ -504,6 +605,21 @@ body {
   }
   #promo-flu .btn {
     width: 100%;
+  }
+  .price-right {
+    text-align: center;
+    width: 100%;
+  }
+  .plist-price {
+    font-size: 2rem;
+    font-weight: 800;
+  }
+  .plist-sub .fw-semibold {
+    display: block;
+    margin-top: 0.15rem;
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #0f172a;
   }
 }
 .testimonial-card {
